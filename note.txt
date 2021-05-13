@@ -3,3 +3,4 @@ git config --global user.email shenlinli3@163.com
 ssh-keygen -t rsa -C shenlinli3@163.com
 copy ~/.ssh/id_rsa.pub to github ssh key
 git remote add origin https://github.com/shenlinli3/git_learn.git   git push -u origin main
+...Unfinished
