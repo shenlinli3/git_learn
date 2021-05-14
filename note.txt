@@ -4,4 +4,11 @@ ssh-keygen -t rsa -C shenlinli3@163.com
 copy ~/.ssh/id_rsa.pub to github ssh key
 git remote add origin https://github.com/shenlinli3/git_learn.git   git push -u origin main
 ...Unfinished
-learn from https://juejin.cn/post/6844903684476764168#comment
+20210513
+learn from 
+https://juejin.cn/post/6844903684476764168#comment
+https://git-scm.com/book/zh/v2
+
+git diff ---查看未缓存的内容
+git diff --staged --查看已经缓存的到最近一次提交的内容变化
+git diff --cached 与--staged同义
