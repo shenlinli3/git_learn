@@ -12,3 +12,4 @@ https://git-scm.com/book/zh/v2
 git diff ---查看未缓存的内容
 git diff --staged --查看已经缓存的到最近一次提交的内容变化
 git diff --cached 与--staged同义
+git commit -a -m xx --不用缓存，一次性提交，注意提交不必要的文件
