@@ -24,3 +24,4 @@ git log -p -2 ----查看提交的内容变化  最近两次
 gt log --stat  ---查看每次的提交变化的简化信息
 git log --pretty=format:%h-%s  ---查看哈希-提示
 git log --pretty=format:%h-%s --author= --since=2021  ---查看哈希-提示
+git remote ---查看指定远程服务器的简写。 git remote -v --查看可读写的远程仓库url
