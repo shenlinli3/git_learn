@@ -19,3 +19,8 @@ git commit -a -m xx --不用缓存，一次性提交，注意提交不必要的�
 git rm file ---删除指定跟踪文件
 git rm --cached file ----删除指定缓存的文件
 git rm path/\*.log ---删除path路径下的所有.log文件
+git log ---查看当前路径下.git库的内容
+git log -p -2 ----查看提交的内容变化  最近两次
+gt log --stat  ---查看每次的提交变化的简化信息
+git log --pretty=format:%h-%s  ---查看哈希-提示
+git log --pretty=format:%h-%s --author= --since=2021  ---查看哈希-提示
